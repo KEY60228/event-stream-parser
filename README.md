@@ -14,7 +14,12 @@ pnpm add ts-sse-parser
 
 ## Usage
 
+You can import the package in two ways:
+
 ```typescript
+// Using v1 explicitly
+import { parse } from 'ts-sse-parser/v1';
+// Using default import (same as v1)
 import { parse } from 'ts-sse-parser';
 
 // Example with fetch

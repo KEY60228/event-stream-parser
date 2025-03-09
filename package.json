@@ -4,6 +4,16 @@
   "description": "Server-Sent Events (SSE) parser implementation following HTML Standard",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./v1": {
+      "types": "./dist/v1/index.d.ts",
+      "default": "./dist/v1/index.js"
+    }
+  },
   "files": [
     "dist",
     "LICENSE",
