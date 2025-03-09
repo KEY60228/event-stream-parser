@@ -33,18 +33,12 @@
   "bugs": {
     "url": "https://github.com/key60228/ts-sse-parser/issues"
   },
-<<<<<<< Updated upstream
-  "homepage": "https://github.com/key60228/ts-sse-parser#readme"
-=======
   "homepage": "https://github.com/key60228/ts-sse-parser#readme",
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@types/node": "^22.13.10",
-    "typescript": "^5.8.2",
-    "vitest": "^3.0.8"
-  },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
   }
->>>>>>> Stashed changes
 }
