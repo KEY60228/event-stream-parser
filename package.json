@@ -1,5 +1,5 @@
 {
-  "name": "ts-sse-parser",
+  "name": "event-stream-parser",
   "version": "1.0.0",
   "description": "Server-Sent Events (SSE) parser implementation following HTML Standard",
   "main": "dist/index.js",
@@ -38,12 +38,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/key60228/ts-sse-parser.git"
+    "url": "git+https://github.com/key60228/event-stream-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/key60228/ts-sse-parser/issues"
+    "url": "https://github.com/key60228/event-stream-parser/issues"
   },
-  "homepage": "https://github.com/key60228/ts-sse-parser#readme",
+  "homepage": "https://github.com/key60228/event-stream-parser#readme",
   "engines": {
     "node": ">=18.0.0"
   },

@@ -5,11 +5,11 @@ A lightweight Server-Sent Events (SSE) parser that works with Web Streams API.
 ## Installation
 
 ```bash
-npm install ts-sse-parser
+npm install event-stream-parser
 # or
-yarn add ts-sse-parser
+yarn add event-stream-parser
 # or
-pnpm add ts-sse-parser
+pnpm add event-stream-parser
 ```
 
 ## Usage
@@ -18,9 +18,9 @@ You can import the package in two ways:
 
 ```typescript
 // Using v1 explicitly
-import { parse } from 'ts-sse-parser/v1';
+import { parse } from 'event-stream-parser/v1';
 // Using default import (same as v1)
-import { parse } from 'ts-sse-parser';
+import { parse } from 'event-stream-parser';
 
 // Example with fetch
 const response = await fetch('https://api.example.com/events', {
