@@ -1,0 +1,17 @@
+# Source
+src/
+
+# Config files
+.github/
+.gitignore
+.node-version
+.npmignore
+biome.json
+tsconfig.json
+vitest.config.ts
+
+# Development files
+node_modules/
+coverage/
+.DS_Store
+*.log 

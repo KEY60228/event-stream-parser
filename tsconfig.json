@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    // c.f.) https://github.com/tsconfig/bases/blob/main/bases/node22.json
+    "lib": ["es2023"],
+    "module": "node16",
+    "target": "ES2022",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node16",
+    // Advanced options
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "types": ["node"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
+}

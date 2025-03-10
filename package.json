@@ -1,0 +1,56 @@
+{
+  "name": "event-stream-parser",
+  "version": "1.0.0",
+  "description": "Server-Sent Events (SSE) parser implementation following HTML Standard",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./v1": {
+      "types": "./dist/v1/index.d.ts",
+      "default": "./dist/v1/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "lint": "biome check src/",
+    "format": "biome format src/ --write",
+    "prepublishOnly": "npm run test && npm run build"
+  },
+  "keywords": [
+    "sse",
+    "server-sent-events",
+    "parser",
+    "stream",
+    "streaming",
+    "eventsource"
+  ],
+  "author": "Kenta Yamaguchi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/key60228/event-stream-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/key60228/event-stream-parser/issues"
+  },
+  "homepage": "https://github.com/key60228/event-stream-parser#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}
