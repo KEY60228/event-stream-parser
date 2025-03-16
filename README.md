@@ -1,6 +1,6 @@
-# SSE Parser Stream
+# Server-Sent Events (SSE) Parser / Event Stream Parser
 
-A lightweight Server-Sent Events (SSE) parser that works with Web Streams API.
+A lightweight Server-Sent Events (SSE) parser implementation following the HTML Living Standard specification. This package is designed to work with the Web Streams API and is fully compatible with modern browsers and Node.js.
 
 ## Installation
 

@@ -1,7 +1,7 @@
 {
   "name": "event-stream-parser",
   "version": "1.0.0",
-  "description": "Server-Sent Events (SSE) parser implementation following HTML Standard",
+  "description": "Server-Sent Events (SSE) Parser / Event Stream Parser implementation following HTML Standard",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
