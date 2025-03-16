@@ -1,0 +1,13 @@
+{
+  "name": "event-stream-parser-example-client",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1"
+  },
+  "dependencies": {
+    "event-stream-parser": "^1.0.0"
+  }
+}
