@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "event-stream-parser-example-server",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts"
