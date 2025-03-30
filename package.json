@@ -1,7 +1,7 @@
 {
   "name": "event-stream-parser",
-  "version": "1.0.0",
-  "description": "Server-Sent Events (SSE) parser implementation following HTML Standard",
+  "version": "1.0.1",
+  "description": "Server-Sent Events (SSE) Parser / Event Stream Parser implementation following HTML Standard",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -21,7 +21,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "vitest",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "lint": "biome check src/",
     "format": "biome format src/ --write",
     "prepublishOnly": "npm run test && npm run build"
@@ -38,12 +39,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/key60228/event-stream-parser.git"
+    "url": "https://github.com/KEY60228/event-stream-parser"
   },
   "bugs": {
-    "url": "https://github.com/key60228/event-stream-parser/issues"
+    "url": "https://github.com/KEY60228/event-stream-parser/issues"
   },
-  "homepage": "https://github.com/key60228/event-stream-parser#readme",
+  "homepage": "https://github.com/KEY60228/event-stream-parser#readme",
   "engines": {
     "node": ">=18.0.0"
   },
