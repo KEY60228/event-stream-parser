@@ -39,12 +39,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/key60228/event-stream-parser.git"
+    "url": "https://github.com/KEY60228/event-stream-parser"
   },
   "bugs": {
-    "url": "https://github.com/key60228/event-stream-parser/issues"
+    "url": "https://github.com/KEY60228/event-stream-parser/issues"
   },
-  "homepage": "https://github.com/key60228/event-stream-parser#readme",
+  "homepage": "https://github.com/KEY60228/event-stream-parser#readme",
   "engines": {
     "node": ">=18.0.0"
   },
