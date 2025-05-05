@@ -15,3 +15,6 @@ node_modules/
 coverage/
 .DS_Store
 *.log 
+
+# Example project
+example/
